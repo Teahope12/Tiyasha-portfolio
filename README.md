@@ -38,4 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 # Tiyasha-portfolio
  Personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Showcasing projects, certifications, and contact details.
->>>>>>> 55aba8e4b78eb976238f90ca78e982544f70f4c4
+
+
+**Link to portfolio:https://tiyasha-portfolio.vercel.app/**
