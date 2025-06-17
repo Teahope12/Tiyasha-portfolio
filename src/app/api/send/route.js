@@ -11,7 +11,7 @@ export async function POST(req) {
   try {
     const { data, error } = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: ['gtiyasha274@resend.dev'],
+      to: ['gtiyasha274@gmail.com'],
       subject: subject,
       react: (
         <>
