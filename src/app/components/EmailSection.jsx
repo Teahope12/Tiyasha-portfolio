@@ -33,11 +33,12 @@ const EmailSection = () => {
     }
   };
   return (
-    <section className="relative grid md:grid-cols-2 my-12 py-24 gap-4">
-      {/* Background blur effect */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 blur-2xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-50 z-0"></div>
-      </div>
+    <section className="relative isolate grid md:grid-cols-2 my-12 py-24 gap-4 overflow-hidden">
+  {/* Full blur layer */}
+  <div className="absolute inset-0 -z-10 bg-white/5 backdrop-blur-md"></div>
+
+  {/* Purple radial glow */}
+  <div className="absolute inset-0 -z-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent blur-3xl opacity-30"></div>
 
       {/* Left content: Social + Description */}
       <div className="relative z-10">
